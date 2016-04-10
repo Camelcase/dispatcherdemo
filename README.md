@@ -15,10 +15,18 @@ the most basic server setup a nice url setup
 this example has two controllers, root and manage,
 assuming you local install will be available on localhost, the urls would be
 
-localhost/dispatcherdemo                                << Root controller, index method
-localhost/dispatcherdemo?uri=test/sometext              << Root controller, test method
-localhost/dispatcherdemo?uri=manage                     << Manage Controller, index method
-localhost/dispatcherdemo?uri=manage/test/sometext       << Manage Controller, test method
+localhost/dispatcherdemo
+<< Root controller, index method
+
+localhost/dispatcherdemo?uri=test/sometext
+<< Root controller, test method
+
+localhost/dispatcherdemo?uri=manage
+<< Manage Controller, index method
+
+localhost/dispatcherdemo?uri=manage/test/sometext
+<< Manage Controller, test method
+
 
 The controllers inherit from a common base_controller_class, and have a common init method
 in order to initialize common elements, data logic, etc.
