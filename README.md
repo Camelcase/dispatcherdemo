@@ -38,8 +38,8 @@ and calls the correct controller/method with the corresponding arguments
 
 ## Motivation
 
-this is a simple demonstration, the code was supposed to be used
-for like a framework and was used in a similar form.
+this is a simple demonstration, the code was originally supposed to be used
+for a small web framework. 
 The project is basically uncommented/undocumented
 
 ## Installation
