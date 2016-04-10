@@ -15,16 +15,16 @@ the most basic server setup a nice url setup
 this example has two controllers, root and manage,
 assuming you local install will be available on localhost, the urls would be
 
-localhost/dispatcherdemo
+localhost/dispatcherdemo/index.php
 << Root controller, index method
 
-localhost/dispatcherdemo?uri=test/sometext
+localhost/dispatcherdemo/index.php?uri=test/sometext
 << Root controller, test method
 
-localhost/dispatcherdemo?uri=manage
+localhost/dispatcherdemo/index.php?uri=manage
 << Manage Controller, index method
 
-localhost/dispatcherdemo?uri=manage/test/sometext
+localhost/dispatcherdemo/index.php?uri=manage/test/sometext
 << Manage Controller, test method
 
 
